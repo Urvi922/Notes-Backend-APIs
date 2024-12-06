@@ -1,0 +1,32 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon App.js",
+    "start-server": "node App.js"
+  },
+  "author": "urvi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "connect-mongodb-session": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.11.0",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.8.3",
+    "mongosh": "^2.3.4",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
